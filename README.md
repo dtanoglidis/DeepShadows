@@ -1,5 +1,11 @@
 # DeepShadows
-Code repository for the paper "*DeepShadows*: Separating Low Surface Brightness Galaxies from Artifacts using Deep Learning"
+Code repository for the paper: "*DeepShadows*: Separating Low Surface Brightness Galaxies from Artifacts using Deep Learning"\
+Astronomy & Computing, submitted
+
+**Authors:**\
+Dimitrios Tanoglidis\
+Aleksandra Ćipricanović\
+Alex Drlica-Wagner
 
 ## Abstract 
 
