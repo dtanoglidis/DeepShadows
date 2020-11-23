@@ -14,11 +14,17 @@ Searches for low-surface-brightness galaxies (LSBGs) in galaxy surveys are plagu
 ---
 ### Table of contents
 
-- [Data](#Data)
 - [Architecture](#DeepShadows-Architecture)
+- [Data](#Data)
 ---
-### Data
 
+
+### *DeepShadows* Architecture
+
+![Architecture of DeepShadows](/Images/DeepShadows.png)
+
+--- 
+### Data
 
 
 <p float="center">
