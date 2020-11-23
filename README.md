@@ -74,5 +74,12 @@ To do so, you have to:
 
 In the above we described the notebook we used to generate the datasets. Let us give brief descriptions of the contents of the other notebooks.
 
-- The main notebook for the present work is [DeepShadows.ipynb](DeepShadows.ipynb)
+- The main notebook for the present work is the [DeepShadows.ipynb](DeepShadows.ipynb). For the baseline split described above it runs the two machine learning (SVM and random
+forests) and the *DeepShadows* CNN model. Produces results, calculates uncertainties using the Bootstrap method. It also performs the transfer learning task (with and without fine tuning). 
+
+The image below summarizes the performance (ROC curves and AUC metrics) of the three models considered:
+
+![ROC_curves](/Images/ROC_curves.png)
+
+--- 
 
