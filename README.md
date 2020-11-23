@@ -17,7 +17,7 @@ Searches for low-surface-brightness galaxies (LSBGs) in galaxy surveys are plagu
 ### Table of contents
 
 - [Architecture](#DeepShadows-Architecture)
-- [Data](#Data)
+- [Datasets](#Datasets)
 - [Notebook descriptions](#Notebook_Descriptions)
 ---
 
@@ -31,8 +31,11 @@ Dropout with rate 0.4 is applied after each pooling layer. Weight regularization
 
 --- 
 
-### Data
+### Datasets
 
+In our paper we have considered two types of data: raw images and features derived from the imaging data using `SourceExtractor`.
+
+The image cutouts, for LSBGs and artifacts alike, were generated using the [DESI Legacy Sky Viewer](https://www.legacysurvey.org/viewer)
 
 <p float="center">
   <img src="/Images/Training.png" width="600" />
