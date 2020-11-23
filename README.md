@@ -18,7 +18,7 @@ Searches for low-surface-brightness galaxies (LSBGs) in galaxy surveys are plagu
 
 - [Architecture](#DeepShadows-Architecture)
 - [Datasets](#Datasets)
-- [Notebook descriptions](#Notebook_descriptions)
+- [Notebook descriptions](#Notebook-descriptions)
 - [Requirements](#Requirements)
 ---
 
@@ -67,7 +67,7 @@ For the transfer learning task, cutouts of objects from the HSC survey have to b
 
 To do so, you have to:
 
-- Comment out the line that starts with `url_name = "http: .... ` in [File_Creation.ipynb](/File_Creation.ipynb) and uncommment the line that is immediately below that.
+- Comment out the line that starts with `url_name = "http: ...` in [File_Creation.ipynb](/File_Creation.ipynb) and uncommment the line that is immediately below that.
 - Use the coordinates you can find in `hsc_LSBGs.dat` and `hsc_artifacts` within the [Datasets](Datasets) folder (we gratefully thank Johnny Greco for providing us the list of artifacts).
 
 ---
@@ -88,7 +88,7 @@ The image below summarizes the performance (ROC curves and AUC metrics) of the t
 <img src="/Images/Uncertainties.png" width="700" />
 
 - In [GradCam_Visualizations.ipynb](GradCam_Visualizations.ipynb) we use the Gradient-weighted Class Activation Maps [Grad-CAM](https://arxiv.org/abs/1610.02391) technique 
-to visualize the regions of the image that were the most important for the classification process. This allows us to better understand how *DeepShadows* decided how to classify an image (for example if there are very bright off-centered sources in an image, it is probable that it is going to be classified as depicting an artifact.
+to visualize the regions of the image that were the most important for the classification process. This allows us to better understand how *DeepShadows* decided how to classify an image (for example if there are very bright off-centered sources in an image, it is probable that it is going to be classified as depicting an artifact).
 
 We generate examples of high-confidence (probabilty) correct and misclassifications, as shown below:
 
