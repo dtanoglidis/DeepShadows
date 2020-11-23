@@ -35,7 +35,8 @@ Dropout with rate 0.4 is applied after each pooling layer. Weight regularization
 
 In our paper we have considered two types of data: raw images and features derived from the imaging data using `SourceExtractor`.
 
-The image cutouts, for LSBGs and artifacts alike, were generated using the [DESI Legacy Sky Viewer](https://www.legacysurvey.org/viewer)
+The image cutouts, for LSBGs and artifacts alike, were generated using the [DESI Legacy Sky Viewer](https://www.legacysurvey.org/viewer). Because of their large size,
+we do not provide the image datasets, but in [File Creation](/File_Creation.ipynb) notebook
 
 <p float="center">
   <img src="/Images/Training.png" width="600" />
