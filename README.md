@@ -38,7 +38,7 @@ In our paper we have considered two types of data: raw images and features deriv
 The image cutouts, for LSBGs and artifacts alike, were generated using the [DESI Legacy Sky Viewer](https://www.legacysurvey.org/viewer). Because of their large size
 we do not provide the image datasets; however, in [File_Creation.ipynb](/File_Creation.ipynb) notebook we provide the code we used to generate the cutouts and store the data into numpy arrays.
 
-To run it you will nee the coordinates of the objects. These are provided in files within the [Data](/Data) folder.
+To run it you will nee the coordinates of the objects. These are provided in files within the [Datasets](/Datasets) folder.
 
 <p float="center">
   <img src="/Images/Training.png" width="600" />
