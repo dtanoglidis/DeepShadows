@@ -6,7 +6,7 @@ ArXiv:
 
 **Authors:**\
 Dimitrios Tanoglidis\
-Aleksandra Ćipricanović\
+Aleksandra Ćiprijanović\
 Alex Drlica-Wagner
 
 ### Abstract 
