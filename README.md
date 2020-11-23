@@ -40,20 +40,25 @@ we do not provide the image datasets; however, in [File_Creation.ipynb](/File_Cr
 
 To run it you will nee the coordinates of the objects. These are provided in files within the [Datasets](/Datasets) folder and correspond to the columns `ra` and `dec` of the following:
 
-- For the LSBGs use: `random_LSBGs_all.csv`
-- For the Artifacts of type 1 use: `random_negative_all_1.csv`
-- For the Artifacts of type 2 use: `random_negative_all_2.csv`
+- For the LSBGs, use: `random_LSBGs_all.csv`
+- For the Artifacts of type 1, use: `random_negative_all_1.csv`
+- For the Artifacts of type 2, use: `random_negative_all_2.csv`
 
 For the diffrence between type 1 and type 2 artifacts, see our paper. The artifacts we used in the main body of the paper, for a binary classification, is of type 2. We added those of type 1 in Appendix A, where we considered a three-class problem. The word `random` in the names of the files means that we have randomly selected 20000 objects from each 
 category. The detection of LSBGs (and artifacts, along the way) from the [Dark Energy Survey](https://www.darkenergysurvey.org/) is presented in [Tanoglidis et al. (2020)](https://arxiv.org/abs/2006.04294).
 
+The above files provide also the `SourceExtractor`-derived features (half-light radii, magnitudes, surf. brightnesses etc.) we used when training SVM and random forest models.
 
+In the main body of the paper we used a particular random split of the dataset into training, validation and test sets (refered to as the "Baseline" one).
+Below we present the spatial distribution of the objects in these three sets in DES footprint (30000: training, 5000: validation, 5000: test).
 
 <p float="center">
   <img src="/Images/Training.png" width="600" />
   <img src="/Images/Validation.png" width="600" /> 
   <img src="/Images/Test.png" width="600" />
 </p>
+
+We can see that the selection is indeed random and all three datasets follow a similar spatial distribution, with the same peaks and troughs.
 
 ---
 ### Notebook descriptions
