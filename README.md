@@ -99,7 +99,7 @@ We generate examples of high-confidence (probabilty) correct and misclassificati
 ---
 ### Requirements
 
-We ran all our experiment in Google Colab Pro, using GPUs and High-RAM mode.
+We ran all of our experiments in Google Colab Pro, using GPUs and High-RAM mode.
 
 We use `Python==3.6.9`. 
 The other Python libraries our notebooks depend on are: 
