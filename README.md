@@ -71,3 +71,8 @@ To do so, you have to:
 
 ---
 ### Notebook descriptions
+
+In the above we described the notebook we used to generate the datasets. Let us give brief descriptions of the contents of the other notebooks.
+
+- The main notebook for the present work is [DeepShadows.ipynb](DeepShadows.ipynb)
+
