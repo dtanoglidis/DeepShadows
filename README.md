@@ -82,5 +82,17 @@ The image below summarizes the performance (ROC curves and AUC metrics) of the t
 <img src="/Images/ROC_curves.png" width="400" />
 
 
---- 
+- In [Uncertainty_quantification.ipynb](Uncertainty_quantification.ipynb) we consider the uncertainties arising from different random splits of the dataset into training-validation-test sets and also the impact of label noise (errors the labels).
+
+<img src="/Images/Uncertainties.png" width="700" />
+
+- In [GradCam_Visualizations.ipynb](GradCam_Visualizations.ipynb) we use the Gradient-weighted Class Activation Maps [Grad-CAM](https://arxiv.org/abs/1610.02391) technique 
+to visualize the regions of the image that were the most important for the classification process. This allows us to better understand how *DeepShadows* decided how to classify an image (for example if there are very bright off-centered sources in an image, it is probable that it is going to be classified as depicting an artifact.
+
+We generate examples of high-confidence (probabilty) correct and misclassifications, as shown below:
+
+<img src="/Images/Grad_CAM.png" width="700" />
+
+
+
 
