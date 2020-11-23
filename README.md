@@ -79,7 +79,8 @@ forests) and the *DeepShadows* CNN model. Produces results, calculates uncertain
 
 The image below summarizes the performance (ROC curves and AUC metrics) of the three models considered:
 
-![ROC_curves](/Images/ROC_curves.png)
+<img src="/Images/ROC_curves.png" width="400" />
+
 
 --- 
 
