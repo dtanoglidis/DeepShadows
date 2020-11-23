@@ -104,20 +104,20 @@ We ran all our experiment in Google Colab Pro, using GPUs and High-RAM mode.
 We use `Python==3.6.9`. 
 The other Python libraries our notebooks depend on are: 
 
-`keras==2.4.0\
-matplotlib==3.2.2\
-numpy==1.18.5\
-pandas==1.14\
-scikit-learn==0.22.2\
-scipy==1.4.1\
-seaborn==0.11.0\
-tensorflow==2.3.0`
+`keras==2.4.0`\
+`matplotlib==3.2.2`\
+`numpy==1.18.5`\
+`pandas==1.14`\
+`scikit-learn==0.22.2`\
+`scipy==1.4.1`\
+`seaborn==0.11.0`\
+`tensorflow==2.3.0`
 
 For [GradCam_Visualizations.ipynb](GradCam_Visualizations.ipynb), specifically, we need the following:
 
-`scipy==1.1.0\
-tensorflow==1.15.2\
-keras-vis==0.4.1`
+`scipy==1.1.0`\
+`tensorflow==1.15.2`\
+`keras-vis==0.4.1`
 
 ---
 
