@@ -1,6 +1,8 @@
 # DeepShadows
 Welcome to the code repository for the paper: "*DeepShadows*: Separating Low Surface Brightness Galaxies from Artifacts using Deep Learning"!\
 Astronomy & Computing, *submitted*
+ArXiv: 
+
 
 **Authors:**\
 Dimitrios Tanoglidis\
@@ -24,7 +26,11 @@ Searches for low-surface-brightness galaxies (LSBGs) in galaxy surveys are plagu
 
 ![Architecture of DeepShadows](/Images/DeepShadows.png)
 
+The *DeepShadows* architecture consists of 3 convolutional layers, each one followed by a max pooling layer, and then 2 fully connected layers (after flattening). 
+Dropout with rate 0.4 is applied after each pooling layer. Weight regularization is applied in the convolutional and dense layers. 
+
 --- 
+
 ### Data
 
 
