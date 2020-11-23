@@ -38,7 +38,16 @@ In our paper we have considered two types of data: raw images and features deriv
 The image cutouts, for LSBGs and artifacts alike, were generated using the [DESI Legacy Sky Viewer](https://www.legacysurvey.org/viewer). Because of their large size
 we do not provide the image datasets; however, in [File_Creation.ipynb](/File_Creation.ipynb) notebook we provide the code we used to generate the cutouts and store the data into numpy arrays.
 
-To run it you will nee the coordinates of the objects. These are provided in files within the [Datasets](/Datasets) folder.
+To run it you will nee the coordinates of the objects. These are provided in files within the [Datasets](/Datasets) folder and correspond to the columns `ra` and `dec` of the following:
+
+- For the LSBGs use: `random_LSBGs_all.csv`
+- For the Artifacts of type 1 use: `random_negative_all_1.csv`
+- For the Artifacts of type 2 use: `random_negative_all_2.csv`
+
+For the diffrence between type 1 and type 2 artifacts, see our paper. The artifacts we used in the main body of the paper, for a binary classification, is of type 2. We added those of type 1 in Appendix A, where we considered a three-class problem. The word `random` in the names of the files means that we have randomly selected 20000 objects from each 
+category. The detection of LSBGs (and artifacts, along the way) from the [Dark Energy Survey](https://www.darkenergysurvey.org/) is presented in [Tanoglidis et al. (2020)](https://arxiv.org/abs/2006.04294).
+
+
 
 <p float="center">
   <img src="/Images/Training.png" width="600" />
