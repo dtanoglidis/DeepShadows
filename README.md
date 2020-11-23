@@ -59,6 +59,15 @@ Below we present the spatial distribution of the objects in these three sets in 
 </p>
 
 We can see that the selection is indeed random and all three datasets follow a similar spatial distribution, with the same peaks and troughs.
+If you are interested in reproducing this particular dataset split, you can find the coordinates of the objects in the files `Baseline_training.csv`, 
+`Baseline_validation.csv` and `Baseline_test.csv`, again inside the [Datasets](Datasets) folder.
+
+For the transfer learning task, cutouts of objects from the HSC survey have to be generated (for more info about LSBGs in HSC, and the source of our data, see [Greco et al. (2018)](https://arxiv.org/abs/1709.04474). 
+
+To do so, you have to:
+
+- Comment out the line that starts with `url_name = "http: .... ` in [File_Creation.ipynb](/File_Creation.ipynb) and uncommment the line that is immediately below that.
+- Use the coordinates you can find in `hsc_LSBGs.dat` and `hsc_artifacts` within the [Datasets](Datasets) folder (we gratefully thank Johnny Greco for providing us the list of artifacts).
 
 ---
 ### Notebook descriptions
