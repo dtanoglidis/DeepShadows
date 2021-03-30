@@ -1,3 +1,7 @@
+[![GitHub stars](https://img.shields.io/github/stars/dtanoglidis/DeepShadows?style=social&label=Star&maxAge=2592000)](https://GitHub.com/dtanoglidis/DeepShadows)
+[![GitHub watchers](https://img.shields.io/github/watchers/dtanoglidis/DeepShadows?style=social&label=Watch)](https://github.com/dtanoglidis/DeepShadows)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/TanoglidisDim?style=social&label=Follow%20@TanoglidisDim)](https://twitter.com/TanoglidisDim)
+
 # DeepShadows
 Welcome to the code repository for the paper: "*DeepShadows*: Separating Low Surface Brightness Galaxies from Artifacts using Deep Learning"!\
 Astronomy & Computing, *submitted*\
