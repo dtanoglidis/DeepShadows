@@ -4,7 +4,7 @@
 
 # DeepShadows
 Welcome to the code repository for the paper: "*DeepShadows*: Separating Low Surface Brightness Galaxies from Artifacts using Deep Learning"!\
-Astronomy & Computing, published [here](https://www.sciencedirect.com/science/article/pii/S2213133721000238?via%3Dihub)
+Astronomy & Computing, published [here](https://www.sciencedirect.com/science/article/pii/S2213133721000238?via%3Dihub)\
 ArXiv: [2011.12437](https://arxiv.org/abs/2011.12437)
 
 
